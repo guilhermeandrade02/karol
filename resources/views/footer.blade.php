@@ -1,0 +1,60 @@
+  <!-- Footer -->
+  <!-- AOS Animation JS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 800,
+        easing: 'ease-in-out',
+        once: false, // Permite que a animação ocorra múltiplas vezes
+        mirror: true, // Faz a animação ocorrer tanto no scroll down quanto no scroll up
+        offset: 120, // Define quando a animação deve ser acionada
+        anchorPlacement: 'top-center' // Define o ponto de referência para a animação
+    });
+</script>
+  <footer class="footer">
+      <div class="container">
+          <div class="footer-columns">
+              <div class="footer-col">
+                  <img src="https://via.placeholder.com/160x50?text=Clínica+da+Carol" alt="KC Beauty" width="160">
+                  <p>Especializada em estética avançada e harmonização facial, proporcionando tratamentos
+                      personalizados com técnicas modernas e resultados naturais.</p>
+              </div>
+              <div class="footer-col">
+                  <h3>Procedimentos</h3>
+                  <ul>
+                      <li><a href="#">Harmonização Facial</a></li>
+                      <li><a href="#">Preenchimento Labial</a></li>
+                      <li><a href="#">Botox</a></li>
+                      <li><a href="#">Fios de Sustentação</a></li>
+                      <li><a href="#">Ultraformer</a></li>
+                  </ul>
+              </div>
+              <div class="footer-col">
+                  <h3>Contato</h3>
+                  <ul class="contact-info">
+                      <li><i class="fas fa-map-marker-alt"></i> R. Voluntários da Pátria, 547 - Centro, Curitiba - PR
+                      </li>
+                      <li><i class="fas fa-phone-alt"></i> (41) 99963-2542</li>
+                      <li><i class="fas fa-envelope"></i> clinicadrakarolcristina1@outlook.com</li>
+                  </ul>
+              </div>
+              <div class="footer-col">
+                  <h3>Horário de Funcionamento</h3>
+                  <p>Segunda a Sexta: 10h às 18h</p>
+                  <div class="footer-social">
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                      <a href="#"><i class="fab fa-whatsapp"></i></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="footer-bottom">
+          <div class="container">
+              <p>&copy; 2025 KC Beauty. Todos os direitos reservados.</p>
+          </div>
+      </div>
+  </footer>
+  </body>
+
+  </html>
