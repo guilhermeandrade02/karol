@@ -15,14 +15,15 @@
              position: relative;
             margin: 0;
             min-height: 100vh;
-            background: 
-                radial-gradient(
-                    circle at center,
-                    rgba(255, 240, 245, 0.95) 0%,   /* Branco rosado (claro) */
-                    rgba(255, 220, 230, 0.8) 30%,   /* Rosa muito claro */
-                    rgba(255, 200, 220, 0.5) 70%,   /* Rosa suave */
-                    rgba(255, 180, 210, 0.2) 100%   /* Rosa quase transparente */
-                );
+           background: 
+    radial-gradient(
+        circle at center,
+        rgba(255, 245, 240, 0.95) 0%,   /* Salmão bem clarinho */
+        rgba(255, 220, 210, 0.8) 30%,   /* Salmão claro */
+        rgba(255, 190, 170, 0.5) 70%,   /* Salmão médio */
+        rgba(255, 160, 140, 0.2) 100%   /* Salmão mais transparente */
+    );
+
             background-attachment: fixed;
         }
 
@@ -209,7 +210,8 @@
             width: 100%;
             height: 100%;
             background-size: cover;
-            background-position: center;
+             background-position: top center; /* mostra o topo da imagem primeiro */
+   
             display: flex;
             align-items: center;
             opacity: 0;
@@ -426,6 +428,37 @@
             transform: rotateY(180deg);
         }
 
+        
+       /* Caixa única para os textos */
+.service-titles {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 8px 15px;
+    border-radius: 6px;
+    text-align: center;
+    color: white;
+    display: inline-block;
+}
+
+/* Título principal */
+.service-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: -10px; /* margem mínima */
+}
+
+/* Subtítulo */
+.service-subtitle {
+   
+    font-weight: bold;
+    text-transform: uppercase;
+     font-size: 1.3rem;
+    color: white;
+}
+
         .service-front,
         .service-back {
             position: absolute;
@@ -506,36 +539,43 @@
         }
 
         /* Depoimentos */
+     /* Estilos do carrossel */
         .testimonials-slider {
-            max-width: 800px;
+           
             margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+        }    
+             
+        .carousel-slide.active {
+            opacity: 1;
+            position: relative;
         }
-
+        
         .testimonial {
             background: #fff;
             padding: 40px;
             border-radius: 10px;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
             text-align: center;
-        }     
-
-        .testimonial-text {
-            font-size: 18px;
-            font-style: italic;
-            margin-bottom: 20px;
-            color: #555;
-        }
-
-        .client-name {
-            font-weight: 600;
-            color: #333;
-        }
-
+        }    
+        
         .client-location {
             color: #d4af9a;
             font-size: 14px;
         }
 
+        
+        .testimonial-result-item {
+            position: relative;
+            border-radius: 10px;
+            overflow: hidden;
+            height: 600px;
+        }
+
+        
+    
+       
         /* Contato */
         .contact-content {
             display: flex;
@@ -827,4 +867,46 @@
         .signature {
             font-style: italic;
             margin-top: 2rem;
+        }
+
+
+      /* porque escolher a clinica */
+
+          .benefits-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .benefit-item {
+            background: var(--light-background);
+            border-radius: 10px;
+            padding: 30px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+        
+        .benefit-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        
+        .benefit-icon {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 20px;
+        }
+        
+        .benefit-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: var(--secondary-color);
+        }
+        
+        .benefit-description {
+            color: var(--light-text);
+            margin-bottom: 0;
         }

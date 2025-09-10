@@ -72,34 +72,27 @@
         <div class="carousel-inner">
             <!-- Slide 1 -->
             <div class="carousel-slide active"
-                style="background-image: url('https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');">
+                style="background-image: url('{{ asset('images/banner/banner1.jpg') }}">
                 <div class="hero-content">
-                    <h1>Harmonização Facial com Excelência</h1>
-                    <p>Procedimentos personalizados para realçar sua beleza natural com segurança e resultados
-                        impressionantes.</p>
+                    <h1>Harmonização facial e corporal personalizadas :</h1>
+                    {{-- <p>Procedimentos personalizados para realçar sua beleza natural com segurança e resultados
+                        impressionantes.</p> --}}
                     <a href="#contact" class="btn">Agende sua Avaliação</a>
                 </div>
             </div>
 
             <!-- Slide 2 -->
             <div class="carousel-slide"
-                style="background-image: url('https://images.unsplash.com/photo-1599351431403-64b3608dcf2b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');">
+                style="background-image: url('{{ asset('images/banner/banner2.jpg') }}">
                 <div class="hero-content">
-                    <h1>Preenchimento Labial Natural</h1>
-                    <p>Resultados volumosos e naturais com técnicas avançadas de preenchimento labial.</p>
+                    <h1>Lifting facial sem agulhas e sem cortes</h1>
+                    <p>ultraformer, a melhor tecnologia e mais moderna fonte da juventude . 
+</p>
                     <a href="#contact" class="btn">Conheça o Procedimento</a>
                 </div>
             </div>
 
-            <!-- Slide 3 -->
-            <div class="carousel-slide"
-                style="background-image: url('https://images.unsplash.com/photo-1556228578-8c89e6adf883?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');">
-                <div class="hero-content">
-                    <h1>Promoção Especial de Verão</h1>
-                    <p>20% de desconto em todos os procedimentos até o final do mês.</p>
-                    <a href="#contact" class="btn">Saiba Mais</a>
-                </div>
-            </div>
+           
         </div>
 
         <!-- Controles do Carrossel -->
