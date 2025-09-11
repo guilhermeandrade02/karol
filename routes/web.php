@@ -15,5 +15,9 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', 'IndexController@index');
-Route::get('/2', 'IndexController@index2');
-
+Route::get('/harmonizacao-facial', 'ProcedimentosController@harmonizacaoFacial')->name('harmonizacaoFacial');
+Route::get('/preenchimento-labial', 'ProcedimentosController@preenchimentoLabial')->name('preenchimentoLabial');
+Route::get('/botox', 'ProcedimentosController@botox')->name('botox');
+Route::get('/fios-sustentacao', 'ProcedimentosController@fiosSustentacao')->name('fiosSustentacao');
+Route::get('/ultraformer', 'ProcedimentosController@ultraformer')->name('ultraformer');
+Route::get('/catalogo', 'IndexController@catalogo')->name('catalogo');

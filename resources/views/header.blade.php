@@ -43,27 +43,8 @@
                 </a>
             </div>
 
-            <nav class="main-nav">
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="#about">Sobre</a></li>
-                    <li class="menu-item-has-children">
-                        <a href="#services">Procedimentos <i class="fas fa-chevron-down"></i></a>
-                        <ul class="sub-menu">
-                            <li><a href="#">Harmonização Facial</a></li><br>
-                            <li><a href="#">Preenchimento Labial</a></li>
-                            <li><a href="#">Botox</a></li>
-                            <li><a href="#">Fios de Sustentação</a></li>
-                            <li><a href="#">Ultraformer</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#results">Resultados</a></li>
-                    <li><a href="#testimonials">Depoimentos</a></li>
-                    <li><a href="#catalog">Catálogo</a></li>
-                    <li><a href="#contact">Contato</a></li>
-                </ul>
-            </nav>
-
+          @include('nav')
+         
             <div class="mobile-menu-toggle">
                 <i class="fas fa-bars"></i>
             </div>
@@ -84,6 +65,14 @@
 
             <!-- Slide 2 -->
             <div class="carousel-slide" style="background-image: url('{{ asset('images/banner/banner2.jpg') }}">
+                <div class="hero-content">
+                    <h1>Lifting facial sem agulhas e sem cortes</h1>
+                    <p>ultraformer, a melhor tecnologia e mais moderna fonte da juventude .
+                    </p>
+                    <a href="#contact" class="btn">Conheça o Procedimento</a>
+                </div>
+            </div>
+              <div class="carousel-slide" style="background-image: url('{{ asset('images/banner/banner2.jpg') }}">
                 <div class="hero-content">
                     <h1>Lifting facial sem agulhas e sem cortes</h1>
                     <p>ultraformer, a melhor tecnologia e mais moderna fonte da juventude .

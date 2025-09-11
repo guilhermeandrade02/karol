@@ -12,8 +12,8 @@ class IndexController extends Controller
         return view('index');
     }
 
-     public function index2()
+    public function catalogo()
     {
-        return view('index2');
+        return view('catalogo');
     }
 }

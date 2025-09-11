@@ -39,11 +39,11 @@
               <div class="footer-col">
                   <h3>Procedimentos</h3>
                   <ul>
-                      <li><a href="#">Harmonização Facial</a></li>
-                      <li><a href="#">Preenchimento Labial</a></li>
-                      <li><a href="#">Botox</a></li>
-                      <li><a href="#">Fios de Sustentação</a></li>
-                      <li><a href="#">Ultraformer</a></li>
+                            <li><a href="{{ Route('harmonizacaoFacial') }}">Harmonização Facial</a></li>
+                            <li><a href="{{ Route('preenchimentoLabial') }}">Preenchimento Labial</a></li>
+                            <li><a href="{{ Route('botox') }}">Botox</a></li>
+                            <li><a href="{{ Route('fiosSustentacao') }}">Fios de Sustentação</a></li>
+                            <li><a href="{{ Route('ultraformer') }}">Ultraformer</a></li>
                   </ul>
               </div>
               <div class="footer-col">
