@@ -820,10 +820,21 @@
             .contact-info {
                 margin-bottom: 10px;
             }
-
             .hero-carousel {
-                min-height: 600px;
+                height: 50vh; /* reduz a altura do carrossel no celular */
+                min-height: 300px; /* altura mínima aceitável */
             }
+
+        
+            .hero-content p {
+                font-size: 14px; /* texto menor */
+            }
+
+            .btn {
+                padding: 8px 16px; /* botão menor */
+                font-size: 14px;
+            }
+                    
 
             .hero-content h1 {
                 font-size: 36px;
