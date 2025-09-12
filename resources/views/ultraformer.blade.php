@@ -13,7 +13,7 @@
         <div class="row align-items-center mb-5">
             <div class="col-lg-6">
                    <div class="procedure-image">
-                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjVmNWY1Ii8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxOCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgZmlsbD0iIzhhNmZhMyI+SGFybW9uaXphw6fDo28gRmFjaWFsPC90ZXh0Pjwvc3ZnPg==" alt="Ultraformer" class="img-fluid">
+                        <img src="{{ asset('images/paginas/ultraformer.jpg') }}" alt="Ultraformer" class="img-fluid">
                     </div>
             </div>
             <div class="col-lg-6">
@@ -28,12 +28,12 @@
                     tonificada e rejuvenescida.
                 </p>
                 <ul class="benefits-list mt-4">
-                    <li>Lifting facial não invasivo</li>
-                    <li>Estímulo à produção de colágeno</li>
-                    <li>Redução de flacidez facial e corporal</li>
-                    <li>Tratamento personalizado para diferentes áreas</li>
-                    <li>Sem tempo de recuperação</li>
-                    <li>Resultados progressivos e naturais</li>
+                    <li><b>Lifting facial não invasivo</b></li>
+                    <li><b>Estímulo à produção de colágeno</b></li>
+                    <li><b>Redução de flacidez facial e corporal</b></li>
+                    <li><b>Tratamento personalizado para diferentes áreas</b></li>
+                    <li><b>Sem tempo de recuperação</b></li>
+                    <li><b>Resultados progressivos e naturais</b></li>
                 </ul>
             </div>
         </div>

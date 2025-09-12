@@ -15,7 +15,7 @@
             <div class="row align-items-center mb-5">
                 <div class="col-lg-6">
                     <div class="procedure-image">
-                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjVmNWY1Ii8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxOCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgZmlsbD0iIzhhNmZhMyI+SGFybW9uaXphw6fDo28gRmFjaWFsPC90ZXh0Pjwvc3ZnPg==" alt="Harmonização Facial" class="img-fluid">
+                        <img src="{{ asset('images/paginas/botox.jpg') }}" alt="Harmonização Facial" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -26,12 +26,12 @@
                        Utilizada há décadas com segurança em procedimentos estéticos, a toxina botulínica é aplicada de forma precisa por nossos especialistas para tratar rugas dinâmicas, prevenir o envelhecimento precoce e realçar sua beleza natural.
                     </p>
                     <ul class="benefits-list mt-4">
-                        <li>Suaviza rugas e linhas de expressão</li>
-                        <li>Previne a formação de novas rugas</li>
-                        <li>Procedimento rápido e pouco invasivo</li>
-                        <li>Resultados naturais e harmoniosos</li>
-                        <li>Efeito prolongado (4 a 6 meses)</li>
-                                 <li>Também utilizado para tratar enxaqueca e hiperidrose</li>
+                        <li><b>Suaviza rugas e linhas de expressão</b></li>
+                        <li><b>Previne a formação de novas rugas</b></li>
+                        <li><b>Procedimento rápido e pouco invasivo</b></li>
+                        <li><b>Resultados naturais e harmoniosos</b></li>
+                        <li><b>Efeito prolongado (4 a 6 meses)</b></li>
+                        <li><b>Também utilizado para tratar enxaqueca e hiperidrose</b></li>
                     </ul>
                 </div>
             </div>

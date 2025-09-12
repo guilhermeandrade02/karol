@@ -18,6 +18,6 @@ Route::get('/', 'IndexController@index');
 Route::get('/harmonizacao-facial', 'ProcedimentosController@harmonizacaoFacial')->name('harmonizacaoFacial');
 Route::get('/preenchimento-labial', 'ProcedimentosController@preenchimentoLabial')->name('preenchimentoLabial');
 Route::get('/botox', 'ProcedimentosController@botox')->name('botox');
-Route::get('/fios-sustentacao', 'ProcedimentosController@fiosSustentacao')->name('fiosSustentacao');
+Route::get('/harmonizacao-glutea', 'ProcedimentosController@harmonizacaoGlutea')->name('harmonizacaoGlutea');
 Route::get('/ultraformer', 'ProcedimentosController@ultraformer')->name('ultraformer');
 Route::get('/catalogo', 'IndexController@catalogo')->name('catalogo');

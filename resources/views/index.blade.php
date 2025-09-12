@@ -233,7 +233,7 @@
                     </div>
                 </div><br><br>
 
-                
+
                 <div data-aos="fade-up" data-aos-delay="100">
                     <div class="section-header text-left">
                         <h2>Porque escolher a clínica KC beauty </h2>
@@ -312,6 +312,23 @@
             <div class="service-card">
                 <div class="service-inner">
                     <div class="service-front service-image">
+                        <img src="{{ asset('images/tratamentos/estimulo-colágeno.jpg') }}" alt="Tratamento de Rugas">
+
+                        <div class="service-titles">
+                            <div class="service-title">ULTRAFORMER</div>
+                            <div class="service-subtitle">&nbsp</div>
+                        </div>
+                    </div>
+                    <div class="service-back">
+                        <p>Utilizamos o Ultraformer e bioestimuladores de colágeno para produção de colágeno e melhora
+                            da flacidez da pele.
+                            Região da face, papada ( flacidez e gordura) , pescoço e colo.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="service-card">
+                <div class="service-inner">
+                    <div class="service-front service-image">
                         <img src="{{ asset('images/tratamentos/harmonização-glutea.jpg') }}"
                             alt="Harmonização Facial">
 
@@ -321,9 +338,8 @@
                         </div>
                     </div>
                     <div class="service-back">
-                        <p>Harmonização glútea e protocolos para gordura localizada tratamentos corporais avançados para
-                            volumização dos glúteos, melhora de celulite, flacidez e também gordura
-                            localizada-emagrecimento.</p>
+                        <p> Harmonização glútea e protocolos para gordura localizada e emagrecimento corporal.
+                            Protocolos avançados para celulite, flacidez, e aumento do volume do glúteo.</p>
                     </div>
                 </div>
             </div>
@@ -339,7 +355,8 @@
 
                     </div>
                     <div class="service-back">
-                        <p> </p>
+                        <p>A clínica KC beauty, utiliza uma técnica exclusiva para melhorar o contorno labial e
+                            volumizar de forma natural e respeitando a estrutura labial de cada paciente. </p>
                     </div>
                 </div>
             </div>
@@ -354,8 +371,9 @@
                         </div>
                     </div>
                     <div class="service-back">
-                        <p>Toxina botulínica e FIOS DE PDO tratamento preventivo para linhas de expressão e também para
-                            rugas estática.</p>
+                        <p>Utilizamos as melhores marcas de toxina botulínica do mercado, promovendo melhora das rugas e
+                            linhas de expressão da face.
+                            Realizamos toxina botulínica para hiperidrose ( suor excessivo das axilas).</p>
                     </div>
                 </div>
             </div>
@@ -371,25 +389,9 @@
                     </div>
                     <div class="service-back">
                         <p>
-
+                            Utilizamos ácido hialurônico das melhores marcas do mercado, para promover simetria facial e
+                            volumização em regiões específicas da face que estruturam e promovem sustentação.
                         </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="service-card">
-                <div class="service-inner">
-                    <div class="service-front service-image">
-                        <img src="{{ asset('images/tratamentos/estimulo-colágeno.jpg') }}" alt="Tratamento de Rugas">
-
-                        <div class="service-titles">
-                            <div class="service-title">ESTÍMULO</div>
-                            <div class="service-subtitle">COLÁGENO</div>
-                        </div>
-                    </div>
-                    <div class="service-back">
-                        <p>Procedimentos que proporcionam estimulo de colágeno e elastina, técnicas injetáveis e
-                            tecnologias de ponta.</p>
                     </div>
                 </div>
             </div>
@@ -573,6 +575,7 @@
 
 
 <!-- Catálogo -->
+
 <section id="catalog" class="section-padding" data-aos="fade-up" data-aos-delay="200">
     <div class="container">
         <div class="section-header">
@@ -581,8 +584,40 @@
         </div>
 
         <div class="catalog-content">
-            <!-- Conteúdo do catálogo será adicionado aqui -->
-            <p>Em breve disponibilizaremos nosso catálogo completo de produtos.</p>
+            <div class="product-card">
+                <img src="{{ asset('images/produtos/todos.jpg') }}" alt="Produto 1">
+                <h3 class="product-title">Linha completa KC beauty</h3>
+                <p>Descrição rápida do produto.</p>
+                <span class="product-price">Conferir</span>
+                <div>
+                    <a href="https://wa.me/5541999632542?text=Olá, gostaria de comprar um produto." target="_blank"
+                        class="whatsapp-float" aria-label="QUERO COMPRAR UM PRODUTO"> <button
+                            class="btn btn-primary">Comprar</button></A>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="{{ asset('images/produtos/HidratanteLabia.jpg') }}" alt="Produto 2">
+                <h3 class="product-title">Hidratante Labial</h3>
+                <p>Outro produto incrível.</p>
+                <span class="product-price">R$ 69,90</span>
+                <div>
+                    <a href="https://wa.me/5541999632542?text=Olá, gostaria de comprar um produto." target="_blank"
+                        class="whatsapp-float" aria-label="QUERO COMPRAR UM PRODUTO"> <button
+                            class="btn btn-primary">Comprar</button></A>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="{{ asset('images/produtos/Protetorsolar.jpg') }}" alt="Produto 3">
+                <h3 class="product-title">Protetor solar fator 60</h3>
+                <p>Mais um produto especial.</p>
+                <span class="product-price">R$ 79,90</span>
+                <div>
+                    <a href="https://wa.me/5541999632542?text=Olá, gostaria de comprar um produto." target="_blank"
+                        class="whatsapp-float" aria-label="QUERO COMPRAR UM PRODUTO"> <button
+                            class="btn btn-primary">Comprar</button></A>
+                </div>
+            </div>
         </div>
     </div>
 </section>

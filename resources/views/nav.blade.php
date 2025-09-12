@@ -5,12 +5,13 @@
                     <li class="menu-item-has-children">
                         <a href="#services">Procedimentos <i class="fas fa-chevron-down"></i></a>
                         <ul class="sub-menu">
+                            <li><a href="{{ Route('ultraformer') }}">Ultraformer <span style="font-size:10px;"> linfting facial sem corte e sem agulhas</span> </a></li>
+                              
                             <li><a href="{{ Route('harmonizacaoFacial') }}">Harmonização Facial</a></li><br>
                             <li><a href="{{ Route('preenchimentoLabial') }}">Preenchimento Labial</a></li>
                             <li><a href="{{ Route('botox') }}">Botox</a></li>
-                            <li><a href="{{ Route('fiosSustentacao') }}">Fios de Sustentação</a></li>
-                            <li><a href="{{ Route('ultraformer') }}">Ultraformer</a></li>
-                              
+                            <li><a href="{{ Route('harmonizacaoGlutea') }}">Harmonização Glútea</a></li>
+                            
                         </ul>
                     </li>
                     <li><a href="#results">Resultados</a></li>

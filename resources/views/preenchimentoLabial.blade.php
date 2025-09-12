@@ -15,7 +15,7 @@
             <div class="row align-items-center mb-5">
                 <div class="col-lg-6">
                     <div class="procedure-image">
-                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjVmNWY1Ii8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxOCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgZmlsbD0iIzhhNmZhMyI+SGFybW9uaXphw6fDo28gRmFjaWFsPC90ZXh0Pjwvc3ZnPg==" alt="botox" class="img-fluid">
+                           <img src="{{ asset('images/paginas/preenchimentoLabial.jpg') }}" alt="Labial" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -26,11 +26,11 @@
                    Nossos especialistas realizam uma avaliação personalizada para entender suas expectativas e criar um plano de tratamento que valorize sua beleza natural, garantindo lábios mais volumosos, definidos e com contorno perfeito.
                     </p>
                     <ul class="benefits-list mt-4">
-                        <li>Aumento do volume labial de forma natural</li>
-                        <li>Definição do contorno e formato dos lábios</li>
-                        <li>Correção de assimetrias</li>
-                        <li>Hidratação e preenchimento de rugas periorais</li>
-                        <li>Resultados imediatos e recuperação rápida</li>
+                        <li><b>Aumento do volume labial de forma natural</b></li>
+                        <li><b>Definição do contorno e formato dos lábios</b></li>
+                        <li><b>Correção de assimetrias</b></li>
+                        <li><b>Hidratação e preenchimento de rugas periorais</b></li>
+                        <li><b>Resultados imediatos e recuperação rápida</b></li>
                     </ul>
                 </div>
             </div>

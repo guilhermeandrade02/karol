@@ -7,32 +7,32 @@
 <section class="section-padding" data-aos="fade-up">
     <div class="container">
         <div class="section-header text-left">
-            <h2>Harmonização Facial</h2>
+            <h2>
+                HARMONIZAÇÃO GLÚTEA
+            </h2>
         </div>
 
         <div class="row align-items-center mb-5">
             <div class="col-lg-6">
                 <div class="procedure-image">
-                    <img src="{{ asset('images/paginas/harmonizacaoFacial.jpg') }}"
-                        alt="Harmonização Facial" class="img-fluid">
+                    <img src="{{ asset('images/paginas/harmonizacaoGlutea.jpg') }}"
+                        alt="Fios de Sustentação" class="img-fluid">
                 </div>
             </div>
             <div class="col-lg-6">
                 <p class="lead">
-                    A harmonização facial é um tratamento que une tecnologias de ponta e procedimentos injetáveis, para
-                    rejuvenescimento e lifting facial, promovendo melhor simetria da face e realce da sua beleza.
-
+                    A Harmonização Glútea é um protocolo exclusivo que vai muito além de apenas aumentar ou modelar o
+                    bumbum.
                 </p>
                 <p>
-                    Através da aplicação de preenchedores, toxina botulínica e outras técnicas modernas, nossos
-                    especialistas
-                    trabalham para criar simetria e proporção, respeitando as características únicas de cada paciente.
+                    O nosso protocolo atua na qualidade da pele, melhora de celulite, aumento de volume e firmeza
+                    muscular, proporcionando resultados naturais, duradouros e personalizados para o seu corpo.
                 </p>
                 <ul class="benefits-list mt-4">
-                    <li><b>Suaviza rugas e linhas de expressão</b></li>
-                    <li><b>Melhora o contorno facial</b></li>
-                    <li><b>Resultados naturais e harmoniosos </b></li>
-                    <li><b>Procedimentos minimamente invasivos</b></li>                   
+                    <li><b>Melhora a textura e a firmeza da pele Diminui celulite</b></li>
+                    <li><b>Estimula o colágeno e combate a flacidez</b></li>
+                    <li><b>Realça o contorno dos glúteos </b></li>                  
+                    <li><b>Deixa o seu bumbum mais redondinho, bonito e saudável</b></li>
                 </ul>
             </div>
         </div>
@@ -44,27 +44,26 @@
             <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
                 <div class="card h-100">
                     <div class="card-body">
-                        <h5 class="card-title">Preenchimento Facial</h5>
-                        <p class="card-text">Utilizamos ácido hialurônico para restaurar volumes, contornar e definir
-                            estruturas faciais.</p>
+                        <h5 class="card-title">Fios de PDO</h5>
+                        <p class="card-text">Fios reabsorvíveis que estimulam o colágeno e proporcionam sustentação
+                            imediata.</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
                 <div class="card h-100">
                     <div class="card-body">
-                        <h5 class="card-title">Toxina Botulínica</h5>
-                        <p class="card-text">Aplicação estratégica para suavizar rugas e linhas de expressão,
-                            proporcionando aspecto rejuvenescido.</p>
+                        <h5 class="card-title">Fios de Sustentação</h5>
+                        <p class="card-text">Com espículas que garantem maior fixação e efeito lifting mais pronunciado.
+                        </p>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
                 <div class="card h-100">
                     <div class="card-body">
-                        <h5 class="card-title">Bioestimuladores de Colágeno</h5>
-                        <p class="card-text">Estimulam a produção natural de colágeno, garantindo resultados duradouros
-                            e naturais.</p>
+                        <h5 class="card-title">Fios de Screw</h5>
+                        <p class="card-text">Com formato espiralado que oferece maior volume e preenchimento facial</p>
                     </div>
                 </div>
             </div>

@@ -33,8 +33,7 @@
           <div class="footer-columns">
               <div class="footer-col">
                   <img src="https://via.placeholder.com/160x50?text=Clínica+da+Carol" alt="KC Beauty" width="160">
-                  <p>Especializada em estética avançada e harmonização facial, proporcionando tratamentos
-                      personalizados com técnicas modernas e resultados naturais.</p>
+                  <p>Clínica de estética facial e corporal avançada, proporcionamos os melhores tratamentos e técnicas, com tratamento individualizado que valorize o seus traços e sua beleza.</p>
               </div>
               <div class="footer-col">
                   <h3>Procedimentos</h3>
@@ -42,7 +41,7 @@
                             <li><a href="{{ Route('harmonizacaoFacial') }}">Harmonização Facial</a></li>
                             <li><a href="{{ Route('preenchimentoLabial') }}">Preenchimento Labial</a></li>
                             <li><a href="{{ Route('botox') }}">Botox</a></li>
-                            <li><a href="{{ Route('fiosSustentacao') }}">Fios de Sustentação</a></li>
+                            <li><a href="{{ Route('harmonizacaoGlutea') }}">Harmonização Glútea</a></li>
                             <li><a href="{{ Route('ultraformer') }}">Ultraformer</a></li>
                   </ul>
               </div>

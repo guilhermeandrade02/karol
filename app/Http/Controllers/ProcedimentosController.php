@@ -27,9 +27,9 @@ class ProcedimentosController extends Controller
         return view('ultraformer');
     }
 
-    public function fiosSustentacao()
+    public function harmonizacaoGlutea()
     {
-        return view('fiosSustentacao');
+        return view('harmonizacaoGlutea');
     }
    
    
