@@ -7,28 +7,18 @@
 
 
 
-   body {
-       font-family: 'Montserrat', sans-serif;
-       color: #555;
-       line-height: 1.6;
-       overflow-x: hidden;
-       position: relative;
-       margin: 0;
-       min-height: 100vh;
-       background:
-           radial-gradient(circle at center,
-               rgba(255, 245, 240, 0.95) 0%,
-               /* Salmão bem clarinho */
-               rgba(255, 220, 210, 0.8) 30%,
-               /* Salmão claro */
-               rgba(255, 190, 170, 0.5) 70%,
-               /* Salmão médio */
-               rgba(255, 160, 140, 0.2) 100%
-               /* Salmão mais transparente */
-           );
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #555;
+    line-height: 1.6;
+    overflow-x: hidden;
+    position: relative;
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #d9a9aa, #f1d6d6);
+    background-attachment: fixed;
+}
 
-       background-attachment: fixed;
-   }
 
 
    h1,

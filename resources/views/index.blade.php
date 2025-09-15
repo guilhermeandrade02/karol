@@ -761,18 +761,18 @@
         });
 
         // Submenu Mobile
-        const menuParents = document.querySelectorAll('.menu-item-has-children');
+   const menuParents = document.querySelectorAll('.menu-item-has-children');
 
-        menuParents.forEach(item => {
-            const link = item.querySelector('a');
+menuParents.forEach(item => {
+    const link = item.querySelector('a');
 
-            link.addEventListener('click', function(e) {
-                if (window.innerWidth <= 992) {
-                    e.preventDefault();
-                    item.classList.toggle('active');
-                }
-            });
-        });
+    link.addEventListener('click', function(e) {
+        if (window.innerWidth <= 992) {
+            e.preventDefault(); // impede o clique de redirecionar
+            item.classList.toggle('active'); // abre/fecha o submenu
+        }
+    });
+});
 
         // Header Scroll Effect
         const header = document.querySelector('.header');

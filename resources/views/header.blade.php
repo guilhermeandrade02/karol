@@ -53,33 +53,22 @@
     <!-- Hero Carousel -->
     <div class="hero-carousel">
         <div class="carousel-inner">
-            <!-- Slide 1 -->
-            <div class="carousel-slide active" style="background-image: url('{{ asset('images/banner/banner1.jpg') }}">
-                <div class="hero-content">
-                    <h1>Harmonização facial e corporal personalizadas :</h1>
-                    {{-- <p>Procedimentos personalizados para realçar sua beleza natural com segurança e resultados
-                        impressionantes.</p> --}}
-                    <a href="#contact" class="btn">Agende sua Avaliação</a>
-                </div>
-            </div>
+    
+        <div class="carousel-slide active" style="background-image: url('{{ asset('images/banner/banner1.png') }}')">
+    <div class="hero-content">
+        <h1>Harmonização facial e corporal personalizadas</h1>
+        <a href="#contact" class="btn">Agende sua Avaliação</a>
+    </div>
+</div>
 
-            <!-- Slide 2 -->
-            <div class="carousel-slide" style="background-image: url('{{ asset('images/banner/banner2.jpg') }}">
-                <div class="hero-content">
-                    <h1>Lifting facial sem agulhas e sem cortes</h1>
-                    <p>ultraformer, a melhor tecnologia e mais moderna fonte da juventude .
-                    </p>
-                    <a href="#contact" class="btn">Conheça o Procedimento</a>
-                </div>
-            </div>
-              <div class="carousel-slide" style="background-image: url('{{ asset('images/banner/banner2.jpg') }}">
-                <div class="hero-content">
-                    <h1>Lifting facial sem agulhas e sem cortes</h1>
-                    <p>ultraformer, a melhor tecnologia e mais moderna fonte da juventude .
-                    </p>
-                    <a href="#contact" class="btn">Conheça o Procedimento</a>
-                </div>
-            </div>
+<div class="carousel-slide" style="background-image: url('{{ asset('images/banner/banner2.png') }}')">
+    <div class="hero-content">
+        <h1>Lifting facial sem agulhas e sem cortes</h1>
+        <p>Ultraformer, tecnologia de ponta e mais moderna, para rejuvenescimento facial e estímulo de colágeno, tratamento de flacidez muscular e tissular da pele.</p>
+        <a href="#contact" class="btn">Conheça o Procedimento</a>
+    </div>
+</div>
+
         </div>
 
         <!-- Controles do Carrossel -->
@@ -90,6 +79,6 @@
         <div class="carousel-indicators">
             <span class="indicator active"></span>
             <span class="indicator"></span>
-            <span class="indicator"></span>
+    
         </div>
     </div>
