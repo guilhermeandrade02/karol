@@ -49,7 +49,7 @@
           @include('nav')
          
 
-            <div class="mobile-menu-toggle">
+         <div class="mobile-menu-toggle">
                 <i class="fas fa-bars"></i>
             </div>
         </div>

@@ -74,6 +74,83 @@
       </div>
       
   </footer>
+  
+<script>
+    
+    // Menu Mobile
+    document.addEventListener('DOMContentLoaded', function() {
+        const mobileToggle = document.querySelector('.mobile-menu-toggle');
+        const mainNav = document.querySelector('.main-nav');
+
+        mobileToggle.addEventListener('click', function() {
+            this.classList.toggle('active');
+            mainNav.classList.toggle('active');
+        });
+
+        // Submenu Mobile
+        const menuParents = document.querySelectorAll('.menu-item-has-children');
+
+        menuParents.forEach(item => {
+            const link = item.querySelector('a');
+
+            link.addEventListener('click', function(e) {
+                if (window.innerWidth <= 992) {
+                    e.preventDefault(); // impede o clique de redirecionar
+                    item.classList.toggle('active'); // abre/fecha o submenu
+                }
+            });
+        });
+
+        // Header Scroll Effect
+        const header = document.querySelector('.header');
+
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 100) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // Fechar menu ao clicar em um link
+        const navLinks = document.querySelectorAll('.main-nav a');
+
+
+    });
+    // Adicionar evento de clique para abrir/fechar o submenu
+    document.addEventListener('DOMContentLoaded', function() {
+        const menuItem = document.querySelector('.menu-item-has-children');
+        const subMenu = document.querySelector('.sub-menu');
+        const chevron = document.querySelector('.menu-item-has-children .fa-chevron-down');
+
+        // Alternar submenu ao clicar no item do menu
+        menuItem.addEventListener('click', function(e) {
+            // Impedir que o clique se propague
+            if (e.target.tagName === 'A') {
+                e.preventDefault();
+            }
+
+            // Alternar a classe 'active' no submenu
+            subMenu.classList.toggle('active');
+
+            // Rotacionar a seta
+            chevron.classList.toggle('rotated');
+        });
+
+        // Fechar o submenu ao clicar fora dele
+        document.addEventListener('click', function(e) {
+            if (!menuItem.contains(e.target)) {
+                subMenu.classList.remove('active');
+                chevron.classList.remove('rotated');
+            }
+        });
+
+        // Prevenir que cliques no submenu fechem o menu
+        subMenu.addEventListener('click', function(e) {
+            e.stopPropagation();
+        });
+    });
+</script>
   </body>
 
   </html>
