@@ -1353,14 +1353,23 @@
        z-index: 10;
    }
 
+  @font-face {
+    font-family: 'Neue Kabel';
+    src: url('/fonts/NeueKabel.woff2') format('woff2'),
+         url('/fonts/NeueKabel.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
    .beauty-carousel .slide-title {
-      font-family: Arial, sans-serif;
+          font-family: 'Nunito', sans-serif;
        font-size: 2.5rem;
-    text-transform: uppercase;
+ font-weight: bold;
        margin-bottom: 15px;
    }
 
    .beauty-carousel .slide-description {
+       font-family: 'Nunito', sans-serif;
 
        font-size: 1.1rem;
        margin-bottom: 20px;
