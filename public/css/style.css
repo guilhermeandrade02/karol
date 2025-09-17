@@ -1342,7 +1342,7 @@
        position: absolute;
        top: 40%;
        /* joga para o meio da tela */
-       left: 50px;
+       left: 90px;
        /* mantém 50px da esquerda */
        transform: translateY(-50%);
        /* ajusta para ficar realmente no centro */
@@ -1354,9 +1354,9 @@
    }
 
    .beauty-carousel .slide-title {
-       font-family: 'Montserrat', sans-serif;
+      font-family: Arial, sans-serif;
        font-size: 2.5rem;
-
+    text-transform: uppercase;
        margin-bottom: 15px;
    }
 
