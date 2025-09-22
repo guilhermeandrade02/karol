@@ -1321,6 +1321,7 @@
 
    /* carousel  header */
    .beauty-carousel {
+    
        width: 100%;
        height: 700px;
        position: relative;
@@ -1329,6 +1330,7 @@
    }
 
    .beauty-carousel .swiper-slide {
+      top: 6%;
        display: flex;
        align-items: center;
        justify-content: center;
@@ -1353,13 +1355,6 @@
        z-index: 10;
    }
 
-  @font-face {
-    font-family: 'Neue Kabel';
-    src: url('/fonts/NeueKabel.woff2') format('woff2'),
-         url('/fonts/NeueKabel.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
 
    .beauty-carousel .slide-title {
           font-family: 'Nunito', sans-serif;
@@ -1426,25 +1421,27 @@
        opacity: 1;
        background: #d29f9f;
    }
+@media (max-width: 768px) {
+    .beauty-carousel {
+        height: auto; /* Ajusta altura de acordo com a imagem */
+    }
 
-   @media (max-width: 768px) {
-       .beauty-carousel {
-           height: 400px;
-       }
+    .beauty-carousel .swiper-slide {
+        background-size: contain; /* mostra a imagem inteira */
+        background-repeat: no-repeat;
+        background-position: center top;
+    }
 
-       .beauty-carousel .slide-content {
-           left: 30px;
-           bottom: 40px;
-           max-width: 80%;
-       }
-
-       .beauty-carousel .slide-title {
-           font-size: 2rem;
-       }
-   }
+    .beauty-carousel .slide-content {
+        left: 20px;
+        bottom: 20px;
+        max-width: 80%;
+    }
+}
 
    @media (max-width: 576px) {
        .beauty-carousel {
+        
            height: 350px;
        }
 

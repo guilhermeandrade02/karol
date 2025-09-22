@@ -15,8 +15,8 @@
       <div class="container">
           <div class="footer-columns">
               <div class="footer-col">
-                  {{-- <img src="https://via.placeholder.com/160x50?text=Clínica+da+Carol" alt="KC Beauty" width="160"> --}}
-                  KC Beauty
+                 <img src="{{ asset('images/logo/logo.jpg') }}" alt="KC Beauty" width="200"> 
+                 
                   <p>Clínica de estética facial e corporal avançada, proporcionamos os melhores tratamentos e técnicas,
                       com tratamento individualizado que valorize o seus traços e sua beleza.</p>
               </div>
