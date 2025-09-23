@@ -1446,6 +1446,6 @@
         object-fit: contain; /* no mobile mostra inteira */
     }
        .beauty-carousel {
-        margin-bottom: -60px; /* espaço maior no desktop */
+        margin-bottom: -50px; /* espaço maior no desktop */
     }
 }
