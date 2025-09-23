@@ -1319,24 +1319,13 @@
        /* cada campo ocupa metade */
    }
 
-   /* carousel  header */
-   .beauty-carousel {
-    
-    
-       height: 600px;
-       position: relative;
-       margin: 40px 0;
-       overflow: hidden;
-   }
+    /* carousel  header */
+    .beauty-carousel {
+        aspect-ratio: 16 / 9; /* define a proporção padrão das imagens */
+        width: 100%;
+        max-height: 600px;
+    }
 
-  .beauty-carousel {
-    width: 100%;
-    height: 100vh; /* ocupa a tela inteira em desktop */
-    max-height: 600px; /* limite para não ficar gigante */
-    position: relative;
-    margin: 0;
-    overflow: hidden;
-}
 
    .beauty-carousel .slide-content {
        position: absolute;
@@ -1420,41 +1409,43 @@
        background: #d29f9f;
    }
 
-   .beauty-carousel .swiper-slide {
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.beauty-carousel .swiper-slide {
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
 }
-
-@media (min-width: 1025px) {
+/* Telas muito grandes (desktop widescreen) */
+@media (min-width: 1440px) {
     .beauty-carousel {
-        height: 100vh; /* altura cheia */
-        max-height: 800px;
+        margin-bottom: 290px; /* bem espaçado */
+    }
+}
+/* Desktop */
+@media (min-width: 1025px) and (max-width: 1439px) {
+    .beauty-carousel {
+        margin-bottom: 120px; /* espaço maior no desktop */
     }
 }
 /* Tablet */
 @media (max-width: 1024px) {
     .beauty-carousel {
-        height: 70vh; /* ajusta dinamicamente */
-        max-height: 500px;
+        aspect-ratio: 16 / 9;
+        max-height: 400px;
+            margin-bottom: 80px;
     }
+}
+.slide-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* desktop cobre */
 }
 
 /* Mobile */
 @media (max-width: 768px) {
-    .beauty-carousel {
-        height: auto; /* deixa a altura se ajustar à proporção */
+    .slide-img {
+         
+        object-fit: contain; /* no mobile mostra inteira */
     }
-
-    .beauty-carousel .swiper-slide {
-        background-size: contain; /* mostra a imagem inteira */
-        background-position: center top;
-        min-height: 300px; /* garante altura mínima */
+       .beauty-carousel {
+        margin-bottom: 10px; /* espaço maior no desktop */
     }
 }

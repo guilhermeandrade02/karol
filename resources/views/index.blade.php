@@ -1,6 +1,6 @@
 @include('header')
 
-<div class="beauty-carousel">  <br>  <br>  <br>
+<div class="beauty-carousel"> <br> <br> <br>
     <div class="swiper-wrapper">
         <!-- Slide 1 - Com background-position top center -->
         {{-- <div class="swiper-slide"
@@ -14,17 +14,9 @@
             </div>
         </div> --}}
         <!-- Slide 2 - Com background-position top center -->
-        <div class="swiper-slide"
-            style="background-image: url('{{ asset('images/banner/banner2.png') }}'); background-position: top center;">
-            <div class="slide-content" data-aos="fade-right">
-                {{-- <h2 class="slide-title" style="  font-family: 'Libre Baskervill', serif;">Lifting facial sem agulhas e
-                    sem cortes</h2>
-                <p class="slide-description">Ultraformer, tecnologia de ponta e mais moderna, para rejuvenescimento
-                    facial e estímulo de
-                    colágeno, tratamento de flacidez muscular e tissular da pele.</p> --}}
-                {{-- <a href="https://wa.me/5541999632542?text=Gostaria de agendar uma avaliação. Vim pelo site da KC Clinic"
-                    class="btn">Conheça o Procedimento</a> --}}
-            </div>
+        <div class="swiper-slide">
+            <img src="{{ asset('images/banner/banner2.png') }}" alt="Banner 1" class="slide-img">
+            <div class="slide-content" data-aos="fade-right"> </div>
         </div>
 
         {{-- <div class="swiper-slide"
@@ -33,7 +25,7 @@
                 {{-- <h2 class="slide-title" style="  font-family: 'Libre Baskervill', serif;">Harmonização Glútea</h2>
                 <p class="slide-description">Protocolo exclusivo para modelação glútea, melhora da flacidez , celulite e
                     promove volumização da região </p> --}}
-                {{-- <a href="https://wa.me/5541999632542?text=Gostaria de agendar uma avaliação. Vim pelo site da KC Clinic"
+        {{-- <a href="https://wa.me/5541999632542?text=Gostaria de agendar uma avaliação. Vim pelo site da KC Clinic"
                     class="btn">Conheça o Procedimento</a> 
             </div>
         </div> --}}
