@@ -1322,23 +1322,21 @@
    /* carousel  header */
    .beauty-carousel {
     
-       width: 100%;
-       height: 700px;
+    
+       height: 600px;
        position: relative;
        margin: 40px 0;
        overflow: hidden;
    }
 
-   .beauty-carousel .swiper-slide {
-      top: 6%;
-       display: flex;
-       align-items: center;
-       justify-content: center;
-       background-position: top center;
-       /* Alterado para iniciar do topo */
-       background-size: cover;
-       position: relative;
-   }
+  .beauty-carousel {
+    width: 100%;
+    height: 100vh; /* ocupa a tela inteira em desktop */
+    max-height: 600px; /* limite para não ficar gigante */
+    position: relative;
+    margin: 0;
+    overflow: hidden;
+}
 
    .beauty-carousel .slide-content {
        position: absolute;
@@ -1421,40 +1419,42 @@
        opacity: 1;
        background: #d29f9f;
    }
+
+   .beauty-carousel .swiper-slide {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width: 1025px) {
+    .beauty-carousel {
+        height: 100vh; /* altura cheia */
+        max-height: 800px;
+    }
+}
+/* Tablet */
+@media (max-width: 1024px) {
+    .beauty-carousel {
+        height: 70vh; /* ajusta dinamicamente */
+        max-height: 500px;
+    }
+}
+
+/* Mobile */
 @media (max-width: 768px) {
     .beauty-carousel {
-        height: auto; /* Ajusta altura de acordo com a imagem */
+        height: auto; /* deixa a altura se ajustar à proporção */
     }
 
     .beauty-carousel .swiper-slide {
         background-size: contain; /* mostra a imagem inteira */
-        background-repeat: no-repeat;
         background-position: center top;
-    }
-
-    .beauty-carousel .slide-content {
-        left: 20px;
-        bottom: 20px;
-        max-width: 80%;
+        min-height: 300px; /* garante altura mínima */
     }
 }
-
-   @media (max-width: 576px) {
-       .beauty-carousel {
-        
-           height: 350px;
-       }
-
-       .beauty-carousel .slide-content {
-           left: 20px;
-           bottom: 30px;
-       }
-
-       .beauty-carousel .slide-title {
-           font-size: 1.7rem;
-       }
-
-       .beauty-carousel .slide-description {
-           font-size: 1rem;
-       }
-   }

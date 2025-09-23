@@ -1,9 +1,9 @@
 @include('header')
 
-<div class="beauty-carousel">
+<div class="beauty-carousel">  <br>  <br>  <br>
     <div class="swiper-wrapper">
         <!-- Slide 1 - Com background-position top center -->
-        <div class="swiper-slide"
+        {{-- <div class="swiper-slide"
             style="background-image: url('{{ asset('images/banner/banner1.png') }}'); background-position: top center;">
             <div class="slide-content" data-aos="fade-right">
                 <h2 class="slide-title" style="font-family: 'Libre Baskerville', serif;">
@@ -12,10 +12,10 @@
                 <a href="https://wa.me/5541999632542?text=Gostaria de agendar uma avaliação. Vim pelo site da KC Clinic"
                     class="btn">Agende sua Avaliação</a>
             </div>
-        </div>
+        </div> --}}
         <!-- Slide 2 - Com background-position top center -->
         <div class="swiper-slide"
-            style="background-image: url('{{ asset('images/banner/banner2.jpg') }}'); background-position: top center;">
+            style="background-image: url('{{ asset('images/banner/banner2.png') }}'); background-position: top center;">
             <div class="slide-content" data-aos="fade-right">
                 {{-- <h2 class="slide-title" style="  font-family: 'Libre Baskervill', serif;">Lifting facial sem agulhas e
                     sem cortes</h2>
@@ -27,16 +27,16 @@
             </div>
         </div>
 
-        <div class="swiper-slide"
-            style="background-image: url('{{ asset('images/banner/glute2.jpg') }}'); background-position: top center;">
+        {{-- <div class="swiper-slide"
+            style="background-image: url('{{ asset('images/banner/glute2.png') }}'); background-position: top center;">
             <div class="slide-content" data-aos="fade-right">
                 {{-- <h2 class="slide-title" style="  font-family: 'Libre Baskervill', serif;">Harmonização Glútea</h2>
                 <p class="slide-description">Protocolo exclusivo para modelação glútea, melhora da flacidez , celulite e
                     promove volumização da região </p> --}}
                 {{-- <a href="https://wa.me/5541999632542?text=Gostaria de agendar uma avaliação. Vim pelo site da KC Clinic"
-                    class="btn">Conheça o Procedimento</a> --}}
+                    class="btn">Conheça o Procedimento</a> 
             </div>
-        </div>
+        </div> --}}
     </div>
     <div class="swiper-button-next"></div>
     <div class="swiper-button-prev"></div>
