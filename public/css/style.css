@@ -1378,24 +1378,17 @@
 
    .beauty-carousel .swiper-button-next,
    .beauty-carousel .swiper-button-prev {
-       color: white;
-       background: rgba(0, 0, 0, 0.3);
-       width: 50px;
-       height: 50px;
-       border-radius: 50%;
-       transition: all 0.3s ease;
+       color: black;  
+       margin-top:-45px;   
    }
 
    .beauty-carousel .swiper-button-next:after,
    .beauty-carousel .swiper-button-prev:after {
-       font-size: 1.5rem;
+       font-size: 1.9rem;
        font-weight: bold;
    }
 
-   .beauty-carousel .swiper-button-next:hover,
-   .beauty-carousel .swiper-button-prev:hover {
-       background: rgba(0, 0, 0, 0.5);
-   }
+  
 
    .beauty-carousel .swiper-pagination-bullet {
        width: 12px;
