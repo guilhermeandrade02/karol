@@ -15,7 +15,7 @@
       <div class="container">
           <div class="footer-columns">
               <div class="footer-col">
-                 <img src="{{ asset('images/logo/logo.jpg') }}" alt="KC Beauty" width="200"> 
+                 <img src="{{ asset('images/logo/logo2.png') }}" alt="KC Beauty" width="300"> 
                  
                   <p>Clínica de estética facial e corporal avançada, proporcionamos os melhores tratamentos e técnicas,
                       com tratamento individualizado que valorize o seus traços e sua beleza.</p>

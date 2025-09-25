@@ -25,7 +25,7 @@
         <div class="container">
             <div class="logo">
                 <a href="/">
-                     <img src="{{ asset('images/logo/logo.jpg') }}" alt="KC Beauty" width="200"> 
+                     <img src="{{ asset('images/logo/logo2.png') }}" alt="KC Beauty" width="200"> 
                  
                 </a>
             </div>
