@@ -172,46 +172,12 @@
 
         @include('components.whatsapp-form')
       </div>
-
-      <!-- Mapa e Instagram com Lazy JS -->
-      
-      <div class="contact-extra" style="flex:1;min-width:300px;">
-        <div id="mapa-placeholder" 
-             style="width:100%;height:250px;background:#eee;border-radius:10px;display:flex;align-items:center;justify-content:center;color:#666;">
-             Carregando mapa...
-        </div>
-        <div id="insta-placeholder" 
-             style="width:100%;height:400px;margin-top:20px;background:#eee;border-radius:10px;display:flex;align-items:center;justify-content:center;color:#666;">
-             Carregando Instagram...
-        </div>
-      </div>
+     
     </div>
   </div>
 </section>
 
-<script defer>
-document.addEventListener("DOMContentLoaded", () => {
-  AOS.init({ once: true, duration: 800 });
 
-  // Lazy load do mapa e Instagram
-  const observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        document.getElementById("mapa-placeholder").innerHTML = `
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3600.191756133258!2d-49.2732977!3d-25.4289546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce44e0c5b2b8f%3A0x2e4b8b42e38b1c!2sR.%20Volunt%C3%A1rios%20da%20P%C3%A1tria%2C%20547%20-%20Centro%2C%20Curitiba%20-%20PR!5e0!3m2!1spt-BR!2sbr!4v1692213690913!5m2!1spt-BR!2sbr"
-            width="100%" height="250" style="border:0;border-radius:10px;" 
-            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`;
-        document.getElementById("insta-placeholder").innerHTML = `
-          <iframe src="https://www.instagram.com/drakarolcristina/embed"
-            width="100%" height="400" frameborder="0" scrolling="no" 
-            allowtransparency="true" loading="lazy"></iframe>`;
-        observer.disconnect();
-      }
-    });
-  });
-  observer.observe(document.querySelector('#contato'));
-});
-</script>
 
 <script src="https://unpkg.com/swiper@9/swiper-bundle.min.js" defer></script>
 <script src="https://unpkg.com/aos@2.3.4/dist/aos.js" defer></script>
