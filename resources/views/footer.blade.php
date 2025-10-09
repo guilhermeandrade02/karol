@@ -15,7 +15,8 @@
       <div class="container">
           <div class="footer-columns">
               <div class="footer-col">
-                 <img src="{{ asset('images/logo/logo2.png') }}" alt="KC Beauty" width="300"> 
+                <img src="{{ asset('images/logo/logo2.png') }}" alt="KC Beauty" width="300" loading="lazy">
+
                  
                   <p>Clínica de estética facial e corporal avançada, proporcionamos os melhores tratamentos e técnicas,
                       com tratamento individualizado que valorize o seus traços e sua beleza.</p>
@@ -60,11 +61,11 @@
       </div>
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-  <!-- AOS Animation JS -->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script src="{{ asset('js/app.js') }}"></script>
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+
+<script src="{{ asset('js/app.js') }}" defer></script>
 
   </body>
 

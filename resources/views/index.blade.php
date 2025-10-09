@@ -3,15 +3,15 @@
 <!-- SEO e Performance -->
 <meta name="description" content="Clínica Dra. Karol Cristina - Estética facial e corporal em Curitiba. Agende sua avaliação.">
 <link rel="canonical" href="{{ url()->current() }}">
-<link rel="preload" as="image" href="{{ asset('images/banner/banner1.png') }}">
+<link rel="preload" as="image" href="{{ asset('images/banner/banner1.webp') }}" />
 
 <!-- Banner principal -->
 <div class="beauty-carousel"><br><br><br>
   <div class="swiper-wrapper">
-    @foreach (['banner1.png', 'banner2.png', 'glute2.png'] as $banner)
+    @foreach (['banner1.webp', 'banner2.webp', 'glute2.webp'] as $banner)
       <div class="swiper-slide">
         <img src="{{ asset("images/banner/$banner") }}" 
-             alt="Banner {{ $loop->iteration }}" 
+             alt="Banner promocional {{ $loop->iteration }}" 
              class="slide-img" 
              width="1920" height="800"
              loading="lazy" decoding="async">
@@ -50,8 +50,8 @@
       </div>
       <div class="grid-item">
         <img class="imagem-arredondada-topo" 
-             src="{{ asset('images/karol.jpg') }}" 
-             alt="Dra. Karol" 
+             src="{{ asset('images/karol.webp') }}" 
+             alt="Dra. Karol Cristina Ribas de Andrade Ávila" 
              width="600" height="600"
              loading="lazy" decoding="async">
       </div>
@@ -69,17 +69,17 @@
 
     <div class="services-grid">
       @foreach ([
-        ['img' => 'estimulo-colágeno.jpg', 'titulo' => 'ULTRAFORMER', 'texto' => 'Ultraformer e bioestimuladores de colágeno para flacidez e firmeza da pele.'],
-        ['img' => 'harmonização-glutea.jpg', 'titulo' => 'HARMONIZAÇÃO GLÚTEA', 'texto' => 'Protocolos avançados para celulite, flacidez e aumento do volume glúteo.'],
-        ['img' => 'preenchimentos.jpg', 'titulo' => 'LÁBIOS', 'texto' => 'Técnica exclusiva para contorno labial natural e harmônico.'],
-        ['img' => 'toxina-botulinica.jpg', 'titulo' => 'TOXINA BOTULÍNICA', 'texto' => 'Melhora de rugas, linhas de expressão e hiperidrose.'],
-        ['img' => 'preenchimento-facial.jpg', 'titulo' => 'PREENCHIMENTOS', 'texto' => 'Simetria facial e volumização com ácido hialurônico.']
+        ['img' => 'estimulo-colágeno.webp', 'titulo' => 'ULTRAFORMER', 'texto' => 'Ultraformer e bioestimuladores de colágeno para flacidez e firmeza da pele.'],
+        ['img' => 'harmonização-glutea.webp', 'titulo' => 'HARMONIZAÇÃO GLÚTEA', 'texto' => 'Protocolos avançados para celulite, flacidez e aumento do volume glúteo.'],
+        ['img' => 'preenchimentos.webp', 'titulo' => 'LÁBIOS', 'texto' => 'Técnica exclusiva para contorno labial natural e harmônico.'],
+        ['img' => 'toxina-botulinica.webp', 'titulo' => 'TOXINA BOTULÍNICA', 'texto' => 'Melhora de rugas, linhas de expressão e hiperidrose.'],
+        ['img' => 'preenchimento-facial.webp', 'titulo' => 'PREENCHIMENTOS', 'texto' => 'Simetria facial e volumização com ácido hialurônico.']
       ] as $proc)
         <div class="service-card">
           <div class="service-inner">
             <div class="service-front service-image">
               <img src="{{ asset("images/tratamentos/{$proc['img']}") }}" 
-                   alt="{{ $proc['titulo'] }}" 
+                   alt="Procedimento: {{ $proc['titulo'] }}" 
                    width="400" height="400"
                    loading="lazy" decoding="async">
               <div class="service-titles">
@@ -108,16 +108,16 @@
       <div class="swiper-wrapper">
         @for ($i = 1; $i <= 12; $i++)
           <div class="swiper-slide result-item">
-            <img src="{{ asset("images/procedimentos/proce{$i}.jpg") }}" 
-                 alt="Resultado {{ $i }}" 
+            <img src="{{ asset("images/procedimentos/proce{$i}.webp") }}" 
+                 alt="Resultado do procedimento {{ $i }}" 
                  class="w-100"
                  width="400" height="400"
                  loading="lazy" decoding="async">
           </div>
         @endfor
       </div>
-      <div class="swiper-button-next" style="color:black"></div>
-      <div class="swiper-button-prev" style="color:black"></div>
+      <div class="swiper-button-next" aria-label="Próximo slide"></div>
+      <div class="swiper-button-prev" aria-label="Slide anterior"></div>
     </div>
   </div>
 </section>
@@ -132,9 +132,9 @@
 
     <div class="catalog-content">
       @foreach ([
-        ['img' => 'todos.jpg', 'titulo' => 'Linha completa KC Beauty', 'preco' => 'Conferir'],
-        ['img' => 'HidratanteLabia.jpg', 'titulo' => 'Hidratante Labial', 'preco' => 'R$ 69,90'],
-        ['img' => 'Protetorsolar.jpg', 'titulo' => 'Protetor Solar Fator 60', 'preco' => 'R$ 79,90']
+        ['img' => 'todos.webp', 'titulo' => 'Linha completa KC Beauty', 'preco' => 'Conferir'],
+        ['img' => 'HidratanteLabia.webp', 'titulo' => 'Hidratante Labial', 'preco' => 'R$ 69,90'],
+        ['img' => 'Protetorsolar.webp', 'titulo' => 'Protetor Solar Fator 60', 'preco' => 'R$ 79,90']
       ] as $p)
         <div class="product-card">
           <img src="{{ asset("images/produtos/{$p['img']}") }}" 
@@ -164,7 +164,6 @@
     </div>
 
     <div class="contact-content d-flex flex-wrap gap-4">
-      <!-- Formulário -->
       <div class="contact-info flex-1">
         <div class="info-item"><i class="fas fa-phone-alt"></i> (41) 99963-2542</div>
         <div class="info-item"><i class="fas fa-envelope"></i> clinicadrakarolcristina1@outlook.com</div>
@@ -172,14 +171,10 @@
 
         @include('components.whatsapp-form')
       </div>
-     
     </div>
   </div>
 </section>
 
 
-
-<script src="https://unpkg.com/swiper@9/swiper-bundle.min.js" defer></script>
-<script src="https://unpkg.com/aos@2.3.4/dist/aos.js" defer></script>
 
 @include('footer')
